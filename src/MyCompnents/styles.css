@@ -1,0 +1,26 @@
+.services-dropdown {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.dropdown-section {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-header {
+  width: 100%;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+  outline: none;
+}
+
+.dropdown-details {
+  padding: 10px 20px;
+}
+

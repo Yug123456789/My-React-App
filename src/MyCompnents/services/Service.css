@@ -1,0 +1,63 @@
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px 50px;
+    padding-top: 100px; /* Adjust the value as needed */
+  }
+  
+  .service {
+    max-width: 60%; /* Reduce width to 60% of the container */
+    justify-self: center; /* Center the items if the grid container is wider than 45% */
+    box-sizing: border-box;
+    text-align: center; /* Center all text and inline elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding-bottom: 20px;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Add space between the image and text */
+  }
+  
+  .service h2 {
+    font-size: 25px;
+    margin: 20px 0 10px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bold;
+  
+  }
+  
+  .service p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 20px; /* Add space between the paragraph and button */
+    font-weight: 300;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #7aade0;
+    color: white;
+    border-radius: 5px;
+    font-family: "Merriweather";
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center; /* Center text within the button */
+  }
+  
+  .service img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: hsl(151, 40%, 58%);
+    transition: background-color 0.3s ease;
+  }

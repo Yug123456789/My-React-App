@@ -1,0 +1,31 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Spread the left and right content */
+  align-items: center; /* Vertically align items */
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Adjust the left margin for spacing */
+}
+
+.left-content img {
+  margin-right: 10px; /* Space between the logo and the paragraph */
+}
+
+.right-content {
+  margin-right: 20px; /* Adjust the right margin for spacing */
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #6c757d;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
